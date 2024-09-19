@@ -152,6 +152,7 @@ nav ul li {
 	display: flex;
 	flex: 1;
 	text-align: center;
+	align-items: center;
 	padding-bottom: 0rem;
 }
 
@@ -162,7 +163,7 @@ nav h1 {
 
 nav p {
 	display: flex;
-	flex: 0.5;
+	flex: 0.3;
 	text-align: center;
 }
 
