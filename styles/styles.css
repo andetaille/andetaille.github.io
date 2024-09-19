@@ -39,6 +39,22 @@ img {
 	justify-content: center;
 }
 
+li {
+	padding-bottom: 1rem;
+}
+
+li:last-child {
+	padding-bottom: 0rem;
+}
+
+dd {
+	padding-bottom: 1rem;
+}
+
+dd:last-child {
+	padding-bottom: 0rem;
+}
+
 /*
 dt {
 	float: left;
@@ -86,6 +102,18 @@ a.event-link {
         text-decoration: none;
 }
 
+a.paper-link {
+        color: #003d31;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+a.file-link {
+        color: #003d31;
+        font-weight: bold;
+        text-decoration: none;
+}
+
 
 /* Setup of navigation bar */
 
@@ -104,10 +132,14 @@ nav {
 
 nav a {
 	color: white;
-	display: inline;
+	display: flex;
 	text-decoration: none;
 	font-size: 2rem;
 }
+
+a:hover{
+    text-decoration: underline;
+  }
 
 nav ul {
 	list-style-type: none;
@@ -117,9 +149,10 @@ nav ul {
 }
 
 nav ul li {
-	display: inline;
+	display: flex;
 	flex: 1;
 	text-align: center;
+	padding-bottom: 0rem;
 }
 
 nav h1 {
@@ -128,7 +161,7 @@ nav h1 {
 }
 
 nav p {
-	display: inline;
+	display: flex;
 	flex: 0.5;
 	text-align: center;
 }
